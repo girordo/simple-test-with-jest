@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const Home = () => (
   <div className="flex flex-col min-h-screen">
     <Head>
-      <title>Create Next App</title>
+      <title>Simple test with jest</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Header />
