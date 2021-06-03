@@ -8,12 +8,12 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main>
-      <h1 className="text-6xl">
+    <main className="flex items-center justify-center h-screen">
+      <h1 className="text-6xl font-bold">
         Hehe here we are again on a pre holiday studying night
       </h1>
-      <Footer />
     </main>
+    <Footer />
   </div>
 );
 
