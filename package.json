@@ -9,6 +9,7 @@
     "test:ci": "jest --ci"
   },
   "dependencies": {
+    "faker": "^5.5.3",
     "formik": "^2.2.9",
     "next": "latest",
     "prop-types": "^15.7.2",
