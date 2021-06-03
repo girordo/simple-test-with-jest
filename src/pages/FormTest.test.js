@@ -18,5 +18,7 @@ describe("rendering and submitting formik form", () => {
     userEvent.type(screen.getByLabelText(/birthday/i), "1990-10-14");
 
     fireEvent.submit(form);
+
+    expect(screen.getByLabelText(/first name/i)).toBeTruthy();
   });
 });
