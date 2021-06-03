@@ -1,23 +1,47 @@
-# Next.js + Jest
+<div align="center">
+   <img
+    src="https://media.giphy.com/media/gw3IWyGkC0rsazTi/giphy.gif"
+    alt="Jest"
+   />
+   <p>The other description from another equal readme</p>
+</div>
 
-This example shows how to configure Jest to work with Next.js.
+<h1 align="center">Simple Test With Jest</h1>
 
-This includes Next.js' built-in support for Global CSS, CSS Modules, and TypeScript!
+# Content table
 
-## How to Use
+<!--ts-->
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+- [Content Table](#content-table)
+- [Techs](#techs)
+- [How to use](#how-to-use)
+<!--te-->
 
-In your terminal, run the following command:
+### Techs
+
+- [React](https://pt-br.reactjs.org/)
+- [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](http://editorconfig.org)
+- [Docker](https://www.docker.com/) (I'm not configure docker in this one)
+- [Tailwind](https://tailwindcss.com/) (Hell yeah we're using tailwind AGAIN:wolf:)
+- [React Testing Library](https://testing-library.com/) (Now with tests)
+
+### How to use
 
 ```bash
-npx create-next-app --example with-jest with-jest-app
-# or
-yarn create next-app --example with-jest with-jest-app
-```
 
-## Run Jest Tests
+# Clone the repository
+$ git clone
 
-```bash
-npm test
+# Get into the folder
+$ cd simple-test-with-jest
+
+# Execuute the dev mode(hacker)
+$ yarn dev
+
+# Docker build
+$ docker build -t simple-test-with-jest .
+
+# Docker run
+$ docker run -p 80:80 simple-test-with-jest
+
 ```
