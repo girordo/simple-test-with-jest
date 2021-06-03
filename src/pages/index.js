@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import styles from './index.module.css'
+import Head from "next/head";
 
 const Home = () => (
   <div className={styles.container}>
@@ -30,8 +29,7 @@ const Home = () => (
 
         <a
           href="https://github.com/vercel/next.js/tree/master/examples"
-          className={styles.card}
-        >
+          className={styles.card}>
           <h3>Examples &rarr;</h3>
           <p>Discover and deploy boilerplate example Next.js projects.</p>
         </a>
@@ -43,6 +41,6 @@ const Home = () => (
       </div>
     </main>
   </div>
-)
+);
 
-export default Home
+export default Home;
