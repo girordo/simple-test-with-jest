@@ -1,7 +1,7 @@
 import React from "react";
 import { useFormik } from "formik";
 import Head from "next/head";
-import { address, date, name, company } from "faker/locale/pt_BR";
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -33,7 +33,10 @@ const FormTest = () => {
       </Head>
       <Header />
       <main className="flex flex-1 items-center justify-center">
-        <form className="flex flex-col" onSubmit={formik.handleSubmit}>
+        <form
+          className="flex flex-col"
+          onSubmit={formik.handleSubmit}
+          data-testid="form-test">
           <label htmlFor="firstName">First Name:</label>
           <input
             className="border-b mb-4"
@@ -74,6 +77,7 @@ const FormTest = () => {
             onChange={formik.handleChange}
             value={formik.values.company}
           />
+          <label htmlFor="birthday">Birthday</label>
           <input
             className="border-b mb-4"
             placeholder="Type your birth date here"
